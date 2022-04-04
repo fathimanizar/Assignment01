@@ -1,0 +1,118 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    background-repeat: no-repeat;
+    background-size:cover;
+   
+     background-color: ivory; 
+    
+}
+h1{
+    text-align: center;
+    
+    color:navy;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+p{
+    text-align:justify;
+    color:darkgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+} 
+
+footer{
+    background-color: black;
+    color:white;
+    height:5em;
+    margin-top: 29%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+    font-style: oblique;
+}
+.tm-row
+{margin-top:70px;}
+.carousel-inner
+{
+    height: 38em;
+ 
+}
+
+.card-img-top
+{
+    height: 10em;
+    width: 13.3em;
+  
+  
+
+}
+#map
+{
+
+    height: 22em;
+
+}
+.card
+{
+    margin-left: 15px;
+    background-color: ivory; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    font-style: oblique;
+    text-align: justify;
+    color:navy;
+}
+h2
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  font-style: oblique;
+  text-align: justify;
+ 
+  color:navy;
+ margin-left: 11em;
+}
+
+
+.col-lg-12
+{
+   
+    text-align: center;
+}
+
+.col-lg-12 a
+{
+    margin-left:5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+  /* font-style: oblique;    */
+  color: white;
+}
+
+.row i
+{
+    margin-left: 5px;
+}
+
+.col-lg-4
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    font-style: oblique;
+ 
+    
+ 
+    
+}
+.col-lg-4 a
+{
+    text-decoration: none;
+  
+  
+}
+h4
+{
+    color:crimson;
+    margin-left: 9px;
+}
+
