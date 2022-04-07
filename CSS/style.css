@@ -115,4 +115,11 @@ h4
     color:crimson;
     margin-left: 9px;
 }
+h3
+{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    font-style: oblique;
+    color: navy;
+}
 
