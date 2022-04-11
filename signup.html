@@ -61,8 +61,11 @@
       <br>
       
     <!--Header ends-->
-    <!--form Starts-->
-    <form action="login.html" class="signup" >
+    <div class="row">
+      <div class="col-lg-2"></div>
+      <div class="col-lg-8">
+    <!--Form Starts-->
+    <form action="login.html" class="signup" onsubmit= "return (validatePhone() && validateEmail() && validatePassword() && validateRePassword());" >
       <div class="container">
         <h1>Sign Up</h1>
         <p>Please fill in this form to create an account.</p>
@@ -71,32 +74,44 @@
         <input type="text" placeholder="Enter First Name" name="fname" required>
     <br>
     <br>
-    <label for="sname"><b>Second Name</b></label>
+        <label for="sname"><b>Second Name</b></label>
         <input type="text" placeholder="Enter Second Name" name="sname" required>
     <br>
     <br>
+    <label for="phonenumber"><b>Phone Number</b></label>
+        <input type="text" placeholder="Enter Phone Number" name="phonenum" id="pnum" required>
+        <br>
+        <span id="error1"></span>
+        <br>
+        <br>
         <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" required>
+        <input type="text" placeholder="Enter Email" name="email" id="email"  required>
+        <br>
+        <span id="error2"></span>
     <br>
     <br>
         <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" required>
+        <input type="password" placeholder="Enter Password" name="psw" id="pwd" onkeyup="validateStrength();"  required>
+        <span id="msg"></span>
+        <br>
+        <span id="error3"></span>
     <br>
     <br>
         <label for="psw-repeat"><b>Repeat Password</b></label>
-        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-    
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" id="re-pwd"  required>
+        <br>
+        <span id="error4"></span>
     <br>
-  
-   <br>
-    <button  id="signupbtn" type="submit">Sign Up</button>
+    <br>
+        <button  id="signupbtn" type="submit">Sign Up</button>
 
       </div>
     </form> 
-    <!--form ends-->
-
-    
-      
+    <!--Form ends-->
+  </div>
+  <div class="col-lg-2"></div>
+ </div>
+      <script src="signup.js"></script>
   </body>
 </html>
     
