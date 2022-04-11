@@ -7,11 +7,11 @@ body
     background-repeat: no-repeat;
     background-size:cover;
     background-color: ivory; 
-    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
 }
 h1{
     text-align: center;
-    /* text-decoration: underline;  */
     color: navy;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: oblique;

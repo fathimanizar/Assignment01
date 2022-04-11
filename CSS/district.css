@@ -1,3 +1,12 @@
+body
+{
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+     background-color: ivory; 
+}
+
 h1{
     text-align:center;
     color: navy;
@@ -12,10 +21,7 @@ h3{
     font-style: oblique;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-body
-{
-    background-color: ivory;
-}
+
 .col-lg-4 #img1
 {
 width: 18em;
