@@ -10,7 +10,6 @@ body
 h1{
     text-align:center;
     color: navy;
-    /* text-decoration: underline; */
     font-style: oblique;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
