@@ -47,15 +47,10 @@ footer{
 {
     height: 10em;
     width: 13.3em;
-  
-  
-
 }
 #map
 {
-
-    height: 22em;
-
+ height: 22em;
 }
 .card
 {
@@ -87,7 +82,7 @@ h2
 {
     margin-left:5px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
-  /* font-style: oblique;    */
+
   color: white;
 }
 
@@ -99,17 +94,11 @@ h2
 .col-lg-4
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
-    font-style: oblique;
- 
-    
- 
-    
+    font-style: oblique;  
 }
 .col-lg-4 a
 {
-    text-decoration: none;
-  
-  
+    text-decoration: none; 
 }
 h4
 {
