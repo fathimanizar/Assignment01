@@ -1,0 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body
+{
+    background-repeat: no-repeat;
+    background-size:auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+     background-color: ivory; 
+     color:navy;
+    
+}
+form
+{
+    text-align: center;
+}

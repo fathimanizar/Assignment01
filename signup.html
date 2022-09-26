@@ -26,6 +26,20 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-black">
          <img src="images/logo.jpg" alt="logo" width="80" 
       height="80">
+      <br>
+      <div class="container-fluid">
+          
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
       
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
@@ -83,26 +97,25 @@
         <br>
         <span id="error1"></span>
         <br>
-        <br>
         <label for="email"><b>Email</b></label>
         <input type="text" placeholder="Enter Email" name="email" id="email"  required>
         <br>
         <span id="error2"></span>
     <br>
-    <br>
+    
         <label for="psw"><b>Password</b></label>
         <input type="password" placeholder="Enter Password" name="psw" id="pwd" onkeyup="validateStrength();"  required>
         <span id="msg"></span>
         <br>
         <span id="error3"></span>
     <br>
-    <br>
+    
         <label for="psw-repeat"><b>Repeat Password</b></label>
         <input type="password" placeholder="Repeat Password" name="psw-repeat" id="re-pwd"  required>
         <br>
         <span id="error4"></span>
     <br>
-    <br>
+    
         <button  id="signupbtn" type="submit">Sign Up</button>
 
       </div>

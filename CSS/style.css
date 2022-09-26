@@ -8,8 +8,19 @@ body
     background-size:cover;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: oblique;
-     background-color: ivory; 
-    
+  /* Created with https://www.css-gradient.com */
+background: #EBF566;
+background: -webkit-linear-gradient(bottom, #EBF566, #9CFB80);
+background: -moz-linear-gradient(bottom, #EBF566, #9CFB80);
+background: linear-gradient(to top, #EBF566, #9CFB80);
+   /* Created with https://www.css-gradient.com */
+/* Created with https://www.css-gradient.com */
+/* background: #EBF566;
+background: -webkit-linear-gradient(bottom, #EBF566, #134804);
+background: -moz-linear-gradient(bottom, #EBF566, #134804);
+background: linear-gradient(to top, #EBF566, #134804); */
+/* Created with https://www.css-gradient.com */
+
 }
 h1{
     text-align: center;
@@ -35,44 +46,50 @@ footer{
   
     font-style: oblique;
 }
-.tm-row
-{margin-top:70px;}
-.carousel-inner
+/* .tm-row
+{margin-top:10px;} */
+/* .carousel-inner
 {
     height: 38em;
  
-}
+} */
 
 .card-img-top
 {
     height: 10em;
-    width: 13.3em;
+    /* max-width: fit-content; */
+    width:210px;
+    border-radius: 16px;
 }
 #map
 {
- height: 22em;
+ height: 29em;
+ width:22em;
+ border-radius: 16px;
 }
 .card
 {
-    margin-left: 15px;
+    /* margin-left: 2px; */
     background-color: ivory; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
     font-style: oblique;
     text-align: justify;
     color:navy;
+    border-radius: 16px;
 }
 h2
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
   font-style: oblique;
-  text-align: justify;
+  
  
   color:navy;
- margin-left: 11em;
+ text-align: center;
+
 }
 
 
-.col-lg-12
+/* .col-lg-12
 {
    
     text-align: center;
@@ -84,26 +101,26 @@ h2
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
 
   color: white;
-}
+} */
 
 .row i
 {
     margin-left: 5px;
 }
 
-.col-lg-4
+.col-lg-5
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
     font-style: oblique;  
 }
-.col-lg-4 a
+.col-lg-5 a
 {
     text-decoration: none; 
 }
 h4
 {
-    color:crimson;
-    margin-left: 9px;
+    color:navy;
+  
 }
 h3
 {
@@ -112,4 +129,22 @@ h3
     font-style: oblique;
     color: navy;
 }
+.carousel-item img{
+    border-radius: 16px;
+    height: 500px;
+}
+.col-lg-3 {
+    margin-left: 50px;
+}
+.col-lg-2{
+    margin-left: 50px;
+}
+.col-lg-8{
+    margin-left: 10px;
+}
+h5{
+    text-align: center;
+}
+
+
 
