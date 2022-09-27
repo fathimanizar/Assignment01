@@ -5,9 +5,9 @@ body
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: oblique;
     background: #C9CF73;
-background: -webkit-linear-gradient(bottom, #C9CF73, #C2F4B4);
-background: -moz-linear-gradient(bottom, #C9CF73, #C2F4B4);
-background: linear-gradient(to top, #C9CF73, #C2F4B4);
+    background: -webkit-linear-gradient(bottom, #C9CF73, #C2F4B4);
+    background: -moz-linear-gradient(bottom, #C9CF73, #C2F4B4);
+    background: linear-gradient(to top, #C9CF73, #C2F4B4);
 }
 
 h1{
@@ -24,18 +24,6 @@ h3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-/* .col-lg-4 #img1
-{
-width: 18em;
-height: 18em;
-margin-left: 6em;
-} */
-/* .carousel-inner
-{
-    height: 30em;
- 
-} */
-
 p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align:justify;
@@ -43,7 +31,6 @@ p{
 }
 .card
 {
-    /* margin-left: 20px; */
     background-color: ivory; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align:justify;
@@ -52,7 +39,6 @@ p{
     margin-left: 30px;
     border-radius: 8px;
 }
-
 .card-img-top
 {
     height: 10em;
@@ -62,11 +48,8 @@ p{
 footer{
     background-color: black;
     color:white;
-    /* height:3em; */
-    /* margin-top: 29%; */
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    
     font-style: oblique;
 }
 .carousel-item img{

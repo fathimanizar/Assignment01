@@ -6,11 +6,10 @@ body
 {
     background-repeat: no-repeat;
     background-size:cover;
-    /* Created with https://www.css-gradient.com */
-background: #C9CF73;
-background: -webkit-linear-gradient(bottom, #C9CF73, #C2F4B4);
-background: -moz-linear-gradient(bottom, #C9CF73, #C2F4B4);
-background: linear-gradient(to top, #C9CF73, #C2F4B4);
+    background: #C9CF73;
+    background: -webkit-linear-gradient(bottom, #C9CF73, #C2F4B4);
+    background: -moz-linear-gradient(bottom, #C9CF73, #C2F4B4);
+    background: linear-gradient(to top, #C9CF73, #C2F4B4);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: oblique;
 }
@@ -40,7 +39,6 @@ h2
     margin-bottom: 15px;
     background-color: ivory; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    /* text-align:justify; */
     font-style: oblique;
     border-radius: 16px;
 }
@@ -53,7 +51,6 @@ footer{
     margin-top: 29%;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-   
     font-style: oblique;
 }
 h5{

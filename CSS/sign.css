@@ -8,33 +8,26 @@ body
     background-repeat: no-repeat;
     background-size:cover;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
-  font-style: oblique;
- 
+    font-style: oblique;
 }
 h1
 {
   color: navy;
 }
-
- .signup
+.signup
 {
   float:right;
   text-align: center;
-  /* margin-left: 25em; */
+
   width: 500px;
 } 
-
-
-
 .signup #signupbtn
 {width:40%;
  height: 1.8em;
  color:white;
  background-color: dodgerblue;
  border: 1px solid dodgerblue;
-align-content: center;
-
-
+ align-content: center;
 }  
 .signup label
 {

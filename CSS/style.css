@@ -8,23 +8,14 @@ body
     background-size:cover;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: oblique;
-  /* Created with https://www.css-gradient.com */
-background: #EBF566;
-background: -webkit-linear-gradient(bottom, #EBF566, #9CFB80);
-background: -moz-linear-gradient(bottom, #EBF566, #9CFB80);
-background: linear-gradient(to top, #EBF566, #9CFB80);
-   /* Created with https://www.css-gradient.com */
-/* Created with https://www.css-gradient.com */
-/* background: #EBF566;
-background: -webkit-linear-gradient(bottom, #EBF566, #134804);
-background: -moz-linear-gradient(bottom, #EBF566, #134804);
-background: linear-gradient(to top, #EBF566, #134804); */
-/* Created with https://www.css-gradient.com */
+    background: #EBF566;
+    background: -webkit-linear-gradient(bottom, #EBF566, #9CFB80);
+    background: -moz-linear-gradient(bottom, #EBF566, #9CFB80);
+    background: linear-gradient(to top, #EBF566, #9CFB80);
 
 }
 h1{
     text-align: center;
-    
     color:navy;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: oblique;
@@ -35,7 +26,6 @@ p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: oblique;
 } 
-
 footer{
     background-color: black;
     color:white;
@@ -46,18 +36,9 @@ footer{
   
     font-style: oblique;
 }
-/* .tm-row
-{margin-top:10px;} */
-/* .carousel-inner
-{
-    height: 38em;
- 
-} */
-
 .card-img-top
 {
     height: 10em;
-    /* max-width: fit-content; */
     width:210px;
     border-radius: 16px;
 }
@@ -69,7 +50,6 @@ footer{
 }
 .card
 {
-    /* margin-left: 2px; */
     background-color: ivory; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
     font-style: oblique;
@@ -88,21 +68,6 @@ h2
 
 }
 
-
-/* .col-lg-12
-{
-   
-    text-align: center;
-}
-
-.col-lg-12 a
-{
-    margin-left:5px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
-
-  color: white;
-} */
-
 .row i
 {
     margin-left: 5px;
@@ -120,7 +85,6 @@ h2
 h4
 {
     color:navy;
-  
 }
 h3
 {
