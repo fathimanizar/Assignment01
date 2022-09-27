@@ -18,19 +18,22 @@ h1
 
  .signup
 {
-  float:inline-start;
+  float:right;
   text-align: center;
-  margin-left: 25em;
+  /* margin-left: 25em; */
+  width: 500px;
 } 
 
 
 
 .signup #signupbtn
-{width:100%;
+{width:40%;
  height: 1.8em;
  color:white;
  background-color: dodgerblue;
  border: 1px solid dodgerblue;
+align-content: center;
+
 
 }  
 .signup label
