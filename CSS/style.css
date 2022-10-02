@@ -8,10 +8,14 @@ body
     background-size:cover;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: oblique;
-    background: #EBF566;
+    background: #C9CF73;
+    background: -webkit-linear-gradient(bottom, #C9CF73, #C2F4B4);
+    background: -moz-linear-gradient(bottom, #C9CF73, #C2F4B4);
+    background: linear-gradient(to top, #C9CF73, #C2F4B4);
+    /* background: #EBF566;
     background: -webkit-linear-gradient(bottom, #EBF566, #9CFB80);
     background: -moz-linear-gradient(bottom, #EBF566, #9CFB80);
-    background: linear-gradient(to top, #EBF566, #9CFB80);
+    background: linear-gradient(to top, #EBF566, #9CFB80); */
 
 }
 h1{
