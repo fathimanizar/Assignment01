@@ -48,9 +48,9 @@ footer{
 }
 #map
 {
- height: 29em;
- width:22em;
- border-radius: 16px;
+    height: 29em;
+    width:22em;
+    border-radius: 16px;
 }
 .card
 {
@@ -64,25 +64,17 @@ footer{
 h2
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
-  font-style: oblique;
-  
- 
-  color:navy;
- text-align: center;
-
+    font-style: oblique;
+    color:navy;
+    text-align: center;
 }
 
-.row i
-{
-    margin-left: 5px;
-}
-
-.col-lg-5
+.col-lg-3
 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
     font-style: oblique;  
 }
-.col-lg-5 a
+.col-lg-3 a
 {
     text-decoration: none; 
 }
@@ -97,22 +89,22 @@ h3
     font-style: oblique;
     color: navy;
 }
-.carousel-item img{
+.carousel-item img
+{
     border-radius: 16px;
     height: 500px;
 }
-.col-lg-3 {
-    margin-left: 50px;
-}
-.col-lg-2{
-    margin-left: 50px;
-}
-.col-lg-8{
-    margin-left: 10px;
-}
+
 h5{
     text-align: center;
 }
-
+.carousel-inner
+{
+    margin-top: 80px;
+}
+.tm-content
+{
+    margin-top: 100px;  
+}
 
 
